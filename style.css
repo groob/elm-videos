@@ -40,7 +40,7 @@ body {
     flex-flow: row ;
     align-items: center;
     padding: 1em;
-    background-color: rgba(93, 103, 94, 0.83);
+    background-color: rgba(93, 103, 94, 0.29);
     max-width: 100%;
     justify-content: space-between;
 }

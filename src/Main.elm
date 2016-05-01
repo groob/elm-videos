@@ -468,7 +468,7 @@ header model =
     , div
         [ class "header-section" ]
         [ a
-            [ href "/" ]
+            [ href "https://github.com/groob/elm-videos/issues" ]
             [ Html.i [ class "fa fa-code-fork" ] []
             ]
         ]

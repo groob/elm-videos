@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto';
+}
+.page {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-body {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex: 1 0 auto;
+}
+
+.page-header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: black;
+}
+.page-logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.page-header {
+    display: flex;
+    flex-flow: row ;
+    align-items: center;
+    padding: 1em;
+    background-color: rgba(93, 103, 94, 0.83);
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+
+.page-footer {
+   padding-top: 1em;
+   text-align: center;
+   width: 100%;
+}
+
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.search-box {
+    margin-left: 30px;
+}
+
+.search-box input {
+    width: 160px;
+    font-size: 1em;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+.video-player {
+    margin-left: 1%;
+    width: 100%;
+    max-width: 560px;
+}
+.video-list-container {
+    min-width: 50%;
+    margin-left: 1%;
+}
+
+.video-list {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.video-row {
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.tag-list #title {
+    font-weight: bold;
+    margin-right: 2px;
+}
+.speaker-list #title {
+    font-weight: bold;
+    margin-right: 2px;
+}
+.speaker-list {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+.video-row#selected {
+    font-weight: bold;
+}
+.video-row:hover {
+   cursor: pointer; 
+   border-bottom: 1px solid #eeeeee;
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 5px;
+}
+
+.tag, .speaker {
+    cursor: pointer;
+}
+.video-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.video-selection h3 {
+    margin-bottom: 0;
+}
+.video-selection, .video-player h3 {
+    margin-bottom: 2em;
+}
+
+.videowrapper iframe {
+    border: 1px solid #eeeeee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

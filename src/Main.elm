@@ -456,7 +456,7 @@ header model =
             [ class "page-logo" ]
             [ a
                 [ href "/" ]
-                [ img [ src "http://elm-lang.org/assets/logo.svg" ] []
+                [ img [ src "/assets/logo.svg" ] []
                 , text "Elm Videos"
                 ]
             ]

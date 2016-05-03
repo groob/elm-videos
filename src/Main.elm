@@ -78,210 +78,6 @@ initialModel =
   }
 
 
-videos : List Video
-videos =
-  [ { date = "2014-09-21"
-    , added = "2016-04-29"
-    , id = "Agu6jipKfYw"
-    , url = "https://www.youtube.com/watch?v=Agu6jipKfYw"
-    , speakers =
-        [ "Evan Czaplicki"
-        ]
-    , tags =
-        [ "frp"
-        , "strangeloop"
-        ]
-    , title = "Controlling Time and Space: understanding the many formulations of FRP"
-    }
-  , { date = "2015-07-14"
-    , added = "2016-04-29"
-    , id = "oYk8CKH7OhE"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers =
-        [ "Evan Czaplicki"
-        ]
-    , tags =
-        [ "curry_on"
-        , "community"
-        ]
-    , title = "Let's be mainstream! User focused design in Elm"
-    }
-  , { date = "2015-11-25"
-    , added = "2016-04-30"
-    , id = "6EdXaWfoslc"
-    , url = "https://www.youtube.com/watch?v=6EdXaWfoslc"
-    , speakers =
-        [ "Richard Feldman"
-        ]
-    , tags =
-        [ "Effects"
-        , "ReactiveConf"
-        ]
-    , title = "Effects as Data"
-    }
-  , { date = "2016-04-27"
-    , added = "2016-05-01"
-    , id = "mIwD27qqr5U"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Tomasz Kowal" ]
-    , tags = [ "LambdaDays", "2016" ]
-    , title = "Tomasz Kowal - Elixir and Elm - the perfect couple (Lambda Days 2016) "
-    }
-  , { date = "2016-04-15"
-    , added = "2016-05-01"
-    , id = "zBHB9i8e3Kc"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Richard Feldman" ]
-    , tags = [ "2016" ]
-    , title = "Richard Feldman - Introduction to Elm ( March 22, 2016 )"
-    }
-  , { date = "2016-04-05"
-    , added = "2016-05-01"
-    , id = "NgwQHGqIMbw"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = []
-    , tags = []
-    , title = "From jQuery to Flux to Elm - Forward 4 Web Summit "
-    }
-  , { date = "2016-03-11"
-    , added = "2016-05-01"
-    , id = "XJ9ckqCMiKk"
-    , url = "https://www.youtube.com/watch?v=XJ9ckqCMiKk"
-    , speakers = [ "Chris McCord", "Evan Czaplicki" ]
-    , tags = [ "ErlangFactory", "2016" ]
-    , title = "Erlang Factory SF 2016 Keynote  Phoenix and Elm – Making the Web Functional"
-    }
-  , { date = "2016-02-26"
-    , added = "2016-05-01"
-    , id = "txxKx_I39a8"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Jamison Dance" ]
-    , tags = [ "ReactJS", "2016" ]
-    , title = "React.js Conf 2016 - Jamison Dance - Rethinking All Practices: Building Applications in Elm"
-    }
-  , { date = "2016-02-15"
-    , added = "2016-05-01"
-    , id = "R121YzswY_4"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Richard Feldman" ]
-    , tags = [ "ReactiveConf", "2015" ]
-    , title = "Elm Stylesheets | Richard Feldman | ReactiveConf 2015"
-    }
-  , { date = "2016-02-08"
-    , added = "2016-05-01"
-    , id = "8pPO9kM2N5I"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Andy Balaam" ]
-    , tags = []
-    , title = "Elm makes me happy"
-    }
-  , { date = "2016-01-04"
-    , added = "2016-05-01"
-    , id = "B7Iwreo1ReU"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "LambdaConf", "2015" ]
-    , tags = []
-    , title = "LambdaConf 2015 - Shipping a Production Web App in Elm  Richard Feldman"
-    }
-  , { date = "2015-12-28"
-    , added = "2016-05-01"
-    , id = "5gazbATrPcU"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = []
-    , tags = []
-    , title = "Hello Elm | An introduction to the Elm language."
-    }
-  , { date = "2015-11-13"
-    , added = "2016-05-01"
-    , id = "jrkLrm4Oh2s"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Jesse Williamson" ]
-    , tags = []
-    , title = "Elm Programming Language by Jesse Williamson"
-    }
-  , { date = "2015-11-11"
-    , added = "2016-05-01"
-    , id = "ZTliDiWDV0k"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Evan Czaplicki" ]
-    , tags = []
-    , title = "Elm with Evan Czaplicki"
-    }
-  , { date = "2015-10-18"
-    , added = "2016-05-01"
-    , id = "W9HDueiaIJ4"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Richard Feldman" ]
-    , tags = [ "LambdaJam" ]
-    , title = "Lambda Jam 2015 - Richard Feldman - Shipping a Production Web App in Elm"
-    }
-  , { date = "2015-10-15"
-    , added = "2016-05-01"
-    , id = "vXe91J6OczU"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = []
-    , tags = []
-    , title = "Introduction to Elm"
-    }
-  , { date = "2015-10-14"
-    , added = "2016-05-01"
-    , id = "MgFDZx1LmOE"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = [ "Alan Gardner" ]
-    , tags = [ "ElixirConf", "2015" ]
-    , title = "ElixirConf 2015 - Phoenix with Elm by Alan Gardner"
-    }
-  , { date = "2015-09-27"
-    , added = "2016-05-01"
-    , id = "FV0DXNB94NE"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = []
-    , tags = []
-    , title = "Make the Back-End Team Jealous: Elm in Production by Richard Feldman"
-    }
-  , { date = "2015-09-10"
-    , added = "2016-05-01"
-    , id = "vOddpMIdQLY"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = []
-    , tags = [ "pragstudio" ]
-    , title = "Elm Signals In Action"
-    }
-  , { date = "2015-08-09"
-    , added = "2016-05-01"
-    , id = "-JlC2Q89yg4"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = []
-    , tags = []
-    , title = "Climbing Into Elm"
-    }
-  , { date = "2015-07-09"
-    , added = "2016-05-01"
-    , id = "fq4l6C935Bg"
-    , url = "https://www.youtube.com/watch?v=fq4l6C935Bg"
-    , speakers = [ "Jivago Alves" ]
-    , tags = [ "PolyConf", "2015" ]
-    , title = "PolyConf 15: Building Web Apps in Elm"
-    }
-  , { date = "2013-11-27"
-    , added = "2016-05-01"
-    , id = "6PDvHveBtDQ"
-    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
-    , speakers = []
-    , tags = []
-    , title = "Elm Tutorial - The basics"
-    }
-  , { date = "2016-04-16"
-    , added = "2016-05-01"
-    , id = "fhMLEOr8C4U"
-    , url = "https://www.youtube.com/watch?v=fhMLEOr8C4U"
-    , speakers = [ "Dave Alger" ]
-    , tags = [ "ui", "elm-ui" ]
-    , title = "elm-ui - rock paper scissors (lizard spock)"
-    }
-  ]
-
-
 init : ( Model, Cmd Msg )
 init =
   ( initialModel, Cmd.none )
@@ -532,3 +328,211 @@ filterBy model videos =
       List.filter (hasTag) bySpeaker
   in
     byTag
+
+
+
+-- VIDEO LIST
+
+
+videos : List Video
+videos =
+  [ { date = "2014-09-21"
+    , added = "2016-04-29"
+    , id = "Agu6jipKfYw"
+    , url = "https://www.youtube.com/watch?v=Agu6jipKfYw"
+    , speakers =
+        [ "Evan Czaplicki"
+        ]
+    , tags =
+        [ "frp"
+        , "strangeloop"
+        ]
+    , title = "Controlling Time and Space: understanding the many formulations of FRP"
+    }
+  , { date = "2015-07-14"
+    , added = "2016-04-29"
+    , id = "oYk8CKH7OhE"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers =
+        [ "Evan Czaplicki"
+        ]
+    , tags =
+        [ "curry_on"
+        , "community"
+        ]
+    , title = "Let's be mainstream! User focused design in Elm"
+    }
+  , { date = "2015-11-25"
+    , added = "2016-04-30"
+    , id = "6EdXaWfoslc"
+    , url = "https://www.youtube.com/watch?v=6EdXaWfoslc"
+    , speakers =
+        [ "Richard Feldman"
+        ]
+    , tags =
+        [ "Effects"
+        , "ReactiveConf"
+        ]
+    , title = "Effects as Data"
+    }
+  , { date = "2016-04-27"
+    , added = "2016-05-01"
+    , id = "mIwD27qqr5U"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Tomasz Kowal" ]
+    , tags = [ "LambdaDays", "2016" ]
+    , title = "Tomasz Kowal - Elixir and Elm - the perfect couple (Lambda Days 2016) "
+    }
+  , { date = "2016-04-15"
+    , added = "2016-05-01"
+    , id = "zBHB9i8e3Kc"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Richard Feldman" ]
+    , tags = [ "2016" ]
+    , title = "Richard Feldman - Introduction to Elm ( March 22, 2016 )"
+    }
+  , { date = "2016-04-05"
+    , added = "2016-05-01"
+    , id = "NgwQHGqIMbw"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = []
+    , tags = []
+    , title = "From jQuery to Flux to Elm - Forward 4 Web Summit "
+    }
+  , { date = "2016-03-11"
+    , added = "2016-05-01"
+    , id = "XJ9ckqCMiKk"
+    , url = "https://www.youtube.com/watch?v=XJ9ckqCMiKk"
+    , speakers = [ "Chris McCord", "Evan Czaplicki" ]
+    , tags = [ "ErlangFactory", "2016" ]
+    , title = "Erlang Factory SF 2016 Keynote  Phoenix and Elm – Making the Web Functional"
+    }
+  , { date = "2016-02-26"
+    , added = "2016-05-01"
+    , id = "txxKx_I39a8"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Jamison Dance" ]
+    , tags = [ "ReactJS", "2016" ]
+    , title = "React.js Conf 2016 - Jamison Dance - Rethinking All Practices: Building Applications in Elm"
+    }
+  , { date = "2016-02-15"
+    , added = "2016-05-01"
+    , id = "R121YzswY_4"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Richard Feldman" ]
+    , tags = [ "ReactiveConf", "2015" ]
+    , title = "Elm Stylesheets | Richard Feldman | ReactiveConf 2015"
+    }
+  , { date = "2016-02-08"
+    , added = "2016-05-01"
+    , id = "8pPO9kM2N5I"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Andy Balaam" ]
+    , tags = []
+    , title = "Elm makes me happy"
+    }
+  , { date = "2016-01-04"
+    , added = "2016-05-01"
+    , id = "B7Iwreo1ReU"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "LambdaConf", "2015" ]
+    , tags = []
+    , title = "LambdaConf 2015 - Shipping a Production Web App in Elm  Richard Feldman"
+    }
+  , { date = "2015-12-28"
+    , added = "2016-05-01"
+    , id = "5gazbATrPcU"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = []
+    , tags = []
+    , title = "Hello Elm | An introduction to the Elm language."
+    }
+  , { date = "2015-11-13"
+    , added = "2016-05-01"
+    , id = "jrkLrm4Oh2s"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Jesse Williamson" ]
+    , tags = []
+    , title = "Elm Programming Language by Jesse Williamson"
+    }
+  , { date = "2015-11-11"
+    , added = "2016-05-01"
+    , id = "ZTliDiWDV0k"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Evan Czaplicki" ]
+    , tags = []
+    , title = "Elm with Evan Czaplicki"
+    }
+  , { date = "2015-10-18"
+    , added = "2016-05-01"
+    , id = "W9HDueiaIJ4"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Richard Feldman" ]
+    , tags = [ "LambdaJam" ]
+    , title = "Lambda Jam 2015 - Richard Feldman - Shipping a Production Web App in Elm"
+    }
+  , { date = "2015-10-15"
+    , added = "2016-05-01"
+    , id = "vXe91J6OczU"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = []
+    , tags = []
+    , title = "Introduction to Elm"
+    }
+  , { date = "2015-10-14"
+    , added = "2016-05-01"
+    , id = "MgFDZx1LmOE"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = [ "Alan Gardner" ]
+    , tags = [ "ElixirConf", "2015" ]
+    , title = "ElixirConf 2015 - Phoenix with Elm by Alan Gardner"
+    }
+  , { date = "2015-09-27"
+    , added = "2016-05-01"
+    , id = "FV0DXNB94NE"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = []
+    , tags = []
+    , title = "Make the Back-End Team Jealous: Elm in Production by Richard Feldman"
+    }
+  , { date = "2015-09-10"
+    , added = "2016-05-01"
+    , id = "vOddpMIdQLY"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = []
+    , tags = [ "pragstudio" ]
+    , title = "Elm Signals In Action"
+    }
+  , { date = "2015-08-09"
+    , added = "2016-05-01"
+    , id = "-JlC2Q89yg4"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = []
+    , tags = []
+    , title = "Climbing Into Elm"
+    }
+  , { date = "2015-07-09"
+    , added = "2016-05-01"
+    , id = "fq4l6C935Bg"
+    , url = "https://www.youtube.com/watch?v=fq4l6C935Bg"
+    , speakers = [ "Jivago Alves" ]
+    , tags = [ "PolyConf", "2015" ]
+    , title = "PolyConf 15: Building Web Apps in Elm"
+    }
+  , { date = "2013-11-27"
+    , added = "2016-05-01"
+    , id = "6PDvHveBtDQ"
+    , url = "https://www.youtube.com/watch?v=oYk8CKH7OhE"
+    , speakers = []
+    , tags = []
+    , title = "Elm Tutorial - The basics"
+    }
+  , { date = "2016-04-16"
+    , added = "2016-05-01"
+    , id = "fhMLEOr8C4U"
+    , url = "https://www.youtube.com/watch?v=fhMLEOr8C4U"
+    , speakers = [ "Dave Alger" ]
+    , tags = [ "ui", "elm-ui" ]
+    , title = "elm-ui - rock paper scissors (lizard spock)"
+    }
+  ]
